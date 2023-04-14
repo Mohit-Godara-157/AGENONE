@@ -104,7 +104,10 @@ const HeroSection = () => {
           />
           <h2 className="text-center text-white fw-semibold fs_xxl pt-4 pt-lg-5 ">
             Benefit of
-            <span className="d-block d-lg-inline">improving your business</span>
+            <span className="d-block d-lg-inline">
+              {" "}
+              improving your business
+            </span>
           </h2>
           <Slider {...settings} className="py-5 row">
             <Col lg={3}>
