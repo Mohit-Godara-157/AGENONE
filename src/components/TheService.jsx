@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import chartImage from "../assets/img/png/chartImage.png";
 const TheService = () => {
   return (
-    <div>
+    <div className="overflow_x_hidden">
       <Container>
         <h2
           className="text_darkLight text-center my-4 pt-2 pt-lg-1 my-lg-5 fs_4xl fw-bold"

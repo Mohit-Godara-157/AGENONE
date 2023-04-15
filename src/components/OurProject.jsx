@@ -16,7 +16,7 @@ import bootomCircle from "../assets/img/png/bootomCircle.png";
 const OurProject = () => {
   const [first, setfirst] = useState(1);
   return (
-    <div className="bg_black sectionImage ">
+    <div className="bg_black overflow_x_hidden sectionImage ">
       <div className="position-relative z_4">
         <img
           className="position-absolute top-0 start-0 w_md_120 zn_1"
