@@ -554,7 +554,10 @@
   .w_md_133 {
     width: 133px;
   }
- 
+  .mw_md_380 {
+    max-width: 380px;
+  }
+
   :root {
     --fs-xsm: 11px;
     --fs-sm: 14px;

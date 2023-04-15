@@ -32,7 +32,7 @@ const NavBar = () => {
           />
           <li className="mx-3 my-3 my-lg-0">
             <a
-              onClick={() => setfirst("d-none")}
+              onClick={() => setfirst(true)}
               className="fs_md fw-medium navLinks position-relative text-white"
               href="#"
             >
@@ -41,7 +41,7 @@ const NavBar = () => {
           </li>
           <li className="mx-3 my-3 my-lg-0">
             <a
-              onClick={() => setfirst("d-none")}
+              onClick={() => setfirst(true)}
               className="fs_md fw-medium navLinks position-relative text-white"
               href="#"
             >
@@ -50,7 +50,7 @@ const NavBar = () => {
           </li>
           <li className="mx-3 my-3 my-lg-0">
             <a
-              onClick={() => setfirst("d-none")}
+              onClick={() => setfirst(true)}
               className="fs_md fw-medium navLinks position-relative text-white"
               href="#"
             >
@@ -59,7 +59,7 @@ const NavBar = () => {
           </li>
           <li className="mx-3 my-3 my-lg-0">
             <a
-              onClick={() => setfirst("d-none")}
+              onClick={() => setfirst(true)}
               className="fs_md fw-medium navLinks position-relative text-white"
               href="#"
             >
@@ -67,7 +67,7 @@ const NavBar = () => {
             </a>
           </li>
           <button
-            onClick={() => setfirst("d-none")}
+            onClick={() => setfirst(true)}
             className="navBtn d-lg-none border-0  fs_sm fw-medium text-white"
           >
             Contact Us

@@ -40,7 +40,7 @@ const OurProject = () => {
             </span>
           </p>
           <div className="   py-4 pt-lg-5 pb-lg-4">
-            <div className="py-2 px-1 px-sm-2    rounded-5 bg_whiteDark d-flex justify-content-between align-items-center mx-auto mw_709">
+            <div className="py-2 px-1 px-sm-2 rounded-5 bg_whiteDark d-flex justify-content-between align-items-center mx-auto mw_md_380 mw_709">
               <button
                 onClick={() => setfirst(1)}
                 className={
