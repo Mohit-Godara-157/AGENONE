@@ -10,8 +10,18 @@ import OurProject from "./components/OurProject";
 import CardsSection from "./components/CardsSection";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 600,
+      delay: 100,
+    });
+  }, []);
   return (
     <>
       <Preloader />

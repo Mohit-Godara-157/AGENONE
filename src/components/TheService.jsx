@@ -6,11 +6,20 @@ const TheService = () => {
   return (
     <div>
       <Container>
-        <h2 className="text_darkLight text-center my-4 pt-2 pt-lg-1 my-lg-5 fs_4xl fw-bold">
+        <h2
+          className="text_darkLight text-center my-4 pt-2 pt-lg-1 my-lg-5 fs_4xl fw-bold"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center"
+        >
           The Services We Offer <span className="text_green">For You</span>
         </h2>
         <Accordion defaultActiveKey={["0"]} alwaysOpen>
-          <Accordion.Item className="accordian_bg" eventKey="0">
+          <Accordion.Item
+            data-aos="fade-down"
+            data-aos-anchor-placement="center-center"
+            className="accordian_bg"
+            eventKey="0"
+          >
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">01</p>
@@ -36,7 +45,12 @@ const TheService = () => {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item className="my-4 accordian_bg" eventKey="1">
+          <Accordion.Item
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-center"
+            className="my-4 accordian_bg"
+            eventKey="1"
+          >
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">02</p>
@@ -62,7 +76,12 @@ const TheService = () => {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item className="my-4 accordian_bg" eventKey="2">
+          <Accordion.Item
+            data-aos="fade-down"
+            data-aos-anchor-placement="center-center"
+            className="my-4 accordian_bg"
+            eventKey="2"
+          >
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">03</p>
@@ -88,7 +107,12 @@ const TheService = () => {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item className="my-4 accordian_bg" eventKey="3">
+          <Accordion.Item
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-center"
+            className="my-4 accordian_bg"
+            eventKey="3"
+          >
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">04</p>
@@ -118,32 +142,68 @@ const TheService = () => {
       </Container>
       <div className="bg_greenImage py-1 mt-lg-5">
         <Container>
-          <h3 className="fs_3xl fw-medium text_darkLight mt-4 mt-lg-5">
+          <h3
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-center"
+            className="fs_3xl fw-medium text_darkLight mt-4 mt-lg-5"
+          >
             We are passionate about helping businesses grow and succeed in the
             digital age. We take pride in our work and strive to exceed your
             expectations every time.
           </h3>
-          <div className="bg_greenBox my-4 my-lg-5">
+          <div
+            data-aos="fade-down"
+            data-aos-anchor-placement="center-center"
+            className="bg_greenBox my-4 my-lg-5"
+          >
             <Row className="py-4 justify-content-center">
-              <Col className="my-3 my-lg-0" sm={6} md={4} lg={3}>
+              <Col
+                data-aos="fade-down"
+                data-aos-anchor-placement="center-center"
+                className="my-3 my-lg-0"
+                sm={6}
+                md={4}
+                lg={3}
+              >
                 <h3 className="text-white fw-bold text-center fs_4xl">10+</h3>
                 <p className="mb-0 text_white_80 text-center fw-medium fs_xl">
                   Years of Experiences
                 </p>
               </Col>
-              <Col className="my-3 my-lg-0" sm={6} md={4} lg={3}>
+              <Col
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-center"
+                className="my-3 my-lg-0"
+                sm={6}
+                md={4}
+                lg={3}
+              >
                 <h3 className="text-white fw-bold text-center fs_4xl">666+</h3>
                 <p className="mb-0 text_white_80 text-center fw-medium fs_xl">
                   Project Completed
                 </p>
               </Col>
-              <Col className="my-3 my-lg-0" sm={6} md={4} lg={3}>
+              <Col
+                data-aos="fade-down"
+                data-aos-anchor-placement="center-center"
+                className="my-3 my-lg-0"
+                sm={6}
+                md={4}
+                lg={3}
+              >
                 <h3 className="text-white fw-bold text-center fs_4xl">555+</h3>
                 <p className="mb-0 text_white_80 text-center fw-medium fs_xl">
                   Satisfied Client
                 </p>
               </Col>
-              <Col className="my-3 my-lg-0" sm={6} md={4} lg={3}>
+              <Col
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-center"
+                className="my-3 my-lg-0"
+                sm={6}
+                md={4}
+                lg={3}
+              >
                 <h3 className="text-white fw-bold text-center fs_4xl">10+</h3>
                 <p className="mb-0 text_white_80 text-center fw-medium fs_xl">
                   Awards Achieved

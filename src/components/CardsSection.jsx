@@ -9,7 +9,14 @@ const CardsSection = () => {
         <div className="d-lg-flex ">
           <div className="overflow_y_scrool hidescroolbar">
             <div className="d-flex flex-column w-100 ps-lg-5  h_1000">
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-down"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -29,7 +36,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -49,7 +63,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-down"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -69,7 +90,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -89,7 +117,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-down"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -109,7 +144,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -133,7 +175,14 @@ const CardsSection = () => {
           </div>
           <div className="overflow_y_scrool hidescroolbar d-none d-lg-block ">
             <div className="d-flex flex-column w-100 pe-lg-5 h_1000">
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-down"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -153,7 +202,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -173,7 +229,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-down"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -193,7 +256,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -213,7 +283,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-down"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -233,7 +310,14 @@ const CardsSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-3" md={6}>
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                className="m-3"
+                md={6}
+              >
                 <div className="cardbackground p-3">
                   <p className="mb-0 fs_lg fw-normal color_white text_black_50 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

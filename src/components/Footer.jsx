@@ -19,7 +19,7 @@ const Footer = () => {
     }
   });
   return (
-    <div>
+    <div className="overflow_x_hidden">
       <a
         className={
           first
@@ -38,7 +38,13 @@ const Footer = () => {
         </a>
       </a>
       <Container>
-        <div className="radiusBox position-relative overflow-hidden z_4">
+        <div
+          data-aos="zoom-out-left"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          className="radiusBox  position-relative overflow-hidden z_4"
+        >
           <img
             className="position-absolute image_hw image_md_hw image_md_set image_set zn_1"
             src={leftImage}
@@ -50,11 +56,23 @@ const Footer = () => {
             alt="leftImage"
           />
           <div className="mx-lg-5 d-flex flex-column flex-lg-row py-4 py-lg-0 align-items-center justify-content-center justify-content-lg-between  px-2 px-sm-3">
-            <h4 className="mb-0  py-4 py-lg-5 text-white text-center text-lg-start fw-semibold fs_3xl">
+            <h4
+              data-aos="flip-up"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              className="mb-0  py-4 py-lg-5 text-white text-center text-lg-start fw-semibold fs_3xl"
+            >
               Let's discuss and bring your
               <span className="d-md-block">vision to life.</span>
             </h4>
-            <button className="footerBtn  text-white fw-medium fs_md border-0 ">
+            <button
+              data-aos="flip-down"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              className="footerBtn  text-white fw-medium fs_md border-0 "
+            >
               Let's Talk
               <svg
                 className="ms-1"
@@ -86,8 +104,21 @@ const Footer = () => {
           alt="footerCircle2"
         />
         <Container>
-          <Row className="justify-content-between py-3 py-lg-5">
-            <Col className="my-3 my-lg-0" lg={4}>
+          <Row
+            data-aos="zoom-out-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            className="justify-content-between py-3 py-lg-5"
+          >
+            <Col
+              data-aos="flip-up"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              className="my-3 my-lg-0"
+              lg={4}
+            >
               <a href="#">
                 <img className="w_md_133" src={logoImage} alt="logoImage" />
               </a>
@@ -103,9 +134,24 @@ const Footer = () => {
                 hello@agenone.com
               </a>
             </Col>
-            <Col className="my-3 my-lg-0" lg={6}>
+            <Col
+              data-aos="flip-down"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="0"
+              className="my-3 my-lg-0"
+              lg={6}
+            >
               <Row>
-                <Col className="my-2 my-lg-0" xs={6} md={4}>
+                <Col
+                  data-aos="zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-delay="300"
+                  data-aos-offset="0"
+                  className="my-2 my-lg-0"
+                  xs={6}
+                  md={4}
+                >
                   <ul className="ps-0 mb-0">
                     <li className="fs_md fw-bold text-white">Menu</li>
                     <li className="mt-3">
@@ -150,7 +196,15 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col className="my-2 my-lg-0" xs={6} md={4}>
+                <Col
+                  data-aos="zoom-out"
+                  data-aos-easing="ease-in-back"
+                  data-aos-delay="300"
+                  data-aos-offset="0"
+                  className="my-2 my-lg-0"
+                  xs={6}
+                  md={4}
+                >
                   <ul className="ps-0 mb-0">
                     <li className="fs_md fw-bold text-white">Support</li>
 
@@ -180,7 +234,15 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col className="my-2 my-lg-0" xs={6} md={4}>
+                <Col
+                  data-aos="zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-delay="300"
+                  data-aos-offset="0"
+                  className="my-2 my-lg-0"
+                  xs={6}
+                  md={4}
+                >
                   <ul className="ps-0 mb-0">
                     <li className="fs_md fw-bold text-white">Social Media</li>
                     <li className="mt-3">

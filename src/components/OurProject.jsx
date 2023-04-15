@@ -29,10 +29,18 @@ const OurProject = () => {
           alt="bootomCircle"
         />
         <Container>
-          <h2 className="text-center pt-5 text-white fw-bold fs_4xl">
+          <h2
+            className="text-center pt-5 text-white fw-bold fs_4xl"
+            data-aos="fade-up"
+            data-aos-duration="2500"
+          >
             Our Project Have Been <span className="text_green_50">Done</span>
           </h2>
-          <p className="text_white_50 mb-0 text-center fw-medium fs_lg">
+          <p
+            data-aos="fade-left"
+            data-aos-duration="2500"
+            className="text_white_50 mb-0 text-center fw-medium fs_lg"
+          >
             Take a look at some of our recent projects and see how we've helped
             other businesses elevate
             <span className="d-lg-block">
@@ -42,6 +50,7 @@ const OurProject = () => {
           <div className="   py-4 pt-lg-5 pb-lg-4">
             <div className="py-2 px-1 px-sm-2 rounded-5 bg_whiteDark d-flex justify-content-between align-items-center mx-auto mw_md_380 mw_709">
               <button
+                data-aos="zoom-in-right"
                 onClick={() => setfirst(1)}
                 className={
                   first === 1
@@ -53,6 +62,7 @@ const OurProject = () => {
                 <span className="d-md-none">UI/UX</span>
               </button>
               <button
+                data-aos="zoom-in-left"
                 onClick={() => setfirst(2)}
                 className={
                   first === 2
@@ -64,6 +74,7 @@ const OurProject = () => {
                 <span className="d-md-none">Digital</span>
               </button>
               <button
+                data-aos="zoom-in-right"
                 onClick={() => setfirst(3)}
                 className={
                   first === 3
@@ -75,6 +86,7 @@ const OurProject = () => {
                 <span className="d-md-none">SMM</span>
               </button>
               <button
+                data-aos="zoom-in-left"
                 onClick={() => setfirst(4)}
                 className={
                   first === 4
@@ -92,7 +104,13 @@ const OurProject = () => {
               first === 1 ? "py-4 py-lg-5 d-flex" : "py-4 py-lg-5 d-none"
             }
           >
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image1} alt="image1" />
@@ -112,7 +130,13 @@ const OurProject = () => {
                 </p>
               </div>
             </Col>
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image2} alt="image2" />
@@ -138,7 +162,13 @@ const OurProject = () => {
               first === 2 ? "py-4 py-lg-5 d-flex" : "py-4 py-lg-5 d-none"
             }
           >
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image2} alt="image2" />
@@ -158,7 +188,13 @@ const OurProject = () => {
                 </p>
               </div>
             </Col>
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image1} alt="image1" />
@@ -183,7 +219,13 @@ const OurProject = () => {
               first === 3 ? "py-4 py-lg-5 d-flex" : "py-4 py-lg-5 d-none"
             }
           >
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image1} alt="image1" />
@@ -202,7 +244,13 @@ const OurProject = () => {
                 </p>
               </div>
             </Col>
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image2} alt="image2" />
@@ -227,7 +275,13 @@ const OurProject = () => {
               first === 4 ? "py-4 py-lg-5 d-flex" : "py-4 py-lg-5 d-none"
             }
           >
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image2} alt="image2" />
@@ -247,7 +301,13 @@ const OurProject = () => {
                 </p>
               </div>
             </Col>
-            <Col className="my-3 my-md-0" md={6}>
+            <Col
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="my-3 my-md-0"
+              md={6}
+            >
               <div className="cardBox p-3 h-100">
                 <div className="position-relative curser">
                   <img className="w-100 " src={image1} alt="image1" />
@@ -273,32 +333,86 @@ const OurProject = () => {
       <div className="line mt-3 mt-lg-4"></div>
       <Container>
         <Row className="py-4 justify-content-center">
-          <Col className="my-3 my-lg-0 " xs={6} sm={4} md={3} lg={2}>
+          <Col
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="my-3 my-lg-0 "
+            xs={6}
+            sm={4}
+            md={3}
+            lg={2}
+          >
             <div className="d-flex justify-content-center">
               <img className="w-75 imageLinks" src={slack} alt="slack" />
             </div>
           </Col>
-          <Col className="my-3 my-lg-0 " xs={6} sm={4} md={3} lg={2}>
+          <Col
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="my-3 my-lg-0 "
+            xs={6}
+            sm={4}
+            md={3}
+            lg={2}
+          >
             <div className="d-flex justify-content-center">
               <img className="w-75 imageLinks" src={google} alt="google" />
             </div>
           </Col>
-          <Col className="my-3 my-lg-0 " xs={6} sm={4} md={3} lg={2}>
+          <Col
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="my-3 my-lg-0 "
+            xs={6}
+            sm={4}
+            md={3}
+            lg={2}
+          >
             <div className="d-flex justify-content-center">
               <img className="w-75 imageLinks" src={netflix} alt="netflix" />
             </div>
           </Col>
-          <Col className="my-3 my-lg-0 " xs={6} sm={4} md={3} lg={2}>
+          <Col
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="my-3 my-lg-0 "
+            xs={6}
+            sm={4}
+            md={3}
+            lg={2}
+          >
             <div className="d-flex justify-content-center">
               <img className="w-75 imageLinks" src={airbnd} alt="airbnd" />
             </div>
           </Col>
-          <Col className="my-3 my-lg-0 " xs={6} sm={4} md={3} lg={2}>
+          <Col
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="my-3 my-lg-0 "
+            xs={6}
+            sm={4}
+            md={3}
+            lg={2}
+          >
             <div className="d-flex justify-content-center">
               <img className="w-75 imageLinks" src={adobe} alt="adobe" />
             </div>
           </Col>
-          <Col className="my-3 my-lg-0 " xs={6} sm={4} md={3} lg={2}>
+          <Col
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="my-3 my-lg-0 "
+            xs={6}
+            sm={4}
+            md={3}
+            lg={2}
+          >
             <div className="d-flex justify-content-center">
               <img
                 className="w-75 imageLinks"

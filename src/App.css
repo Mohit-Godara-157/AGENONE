@@ -286,6 +286,9 @@
 .w_260 {
   width: 260px;
 }
+.overflow_x_hidden {
+  overflow-x: hidden;
+}
 .overflow_y_scrool {
   overflow-y: scroll;
 }

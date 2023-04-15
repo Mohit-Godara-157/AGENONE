@@ -91,7 +91,11 @@ const HeroSection = () => {
           </button>
         </div>
         {/* green section */}
-        <div className="my-5 pb-2 shapeImage z_4  position-relative ">
+        <div
+          className="my-5 pb-2 shapeImage z_4  position-relative "
+          data-aos="fade-zoom"
+          data-aos-anchor-placement="center-center"
+        >
           <img
             className="position-absolute start-0 top_11 top_xl_0 zn_1"
             src={leftOrnament}
