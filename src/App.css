@@ -66,6 +66,9 @@
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
+.w_50 {
+  width: 50% !important;
+}
 /* bg_images */
 .headerImage {
   background-image: url("../src/assets/img/png/bgImage.png");
@@ -272,6 +275,12 @@
   height: 3px;
   background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
   border-radius: 10px;
+}
+.rotate_90 {
+  transform: rotate(90deg);
+}
+.rotate {
+  transform: rotate(270deg) !important;
 }
 /* animation */
 .animationMove {
@@ -508,6 +517,9 @@
     --fs-xxl: 26px;
     --fs-3xl: 35px;
     --fs-4xl: 52px;
+  }
+  .w_lg_100{
+    width: 100% !important;
   }
 
   .navOpen {

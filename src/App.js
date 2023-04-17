@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
 import { useEffect } from "react";
 import AOS from "aos";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 
 function App() {
