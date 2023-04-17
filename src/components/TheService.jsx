@@ -9,17 +9,11 @@ const TheService = () => {
         <h2
           className="text_darkLight text-center my-4 pt-2 pt-lg-1 my-lg-5 fs_4xl fw-bold"
           data-aos="fade-up"
-          data-aos-anchor-placement="center-center"
         >
           The Services We Offer <span className="text_green">For You</span>
         </h2>
-        <Accordion defaultActiveKey={["0"]} alwaysOpen>
-          <Accordion.Item
-            data-aos="fade-down"
-            data-aos-anchor-placement="center-center"
-            className="accordian_bg"
-            eventKey="0"
-          >
+        <Accordion className="mb-5 pb-lg-2" defaultActiveKey="0">
+          <Accordion.Item className="accordian_bg" eventKey="0">
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">01</p>
@@ -45,12 +39,7 @@ const TheService = () => {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
-            className="my-4 accordian_bg"
-            eventKey="1"
-          >
+          <Accordion.Item className="my-4 py-3 accordian_bg" eventKey="1">
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">02</p>
@@ -76,12 +65,7 @@ const TheService = () => {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item
-            data-aos="fade-down"
-            data-aos-anchor-placement="center-center"
-            className="my-4 accordian_bg"
-            eventKey="2"
-          >
+          <Accordion.Item className="my-4 py-3  accordian_bg" eventKey="2">
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">03</p>
@@ -107,12 +91,7 @@ const TheService = () => {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
-            className="my-4 accordian_bg"
-            eventKey="3"
-          >
+          <Accordion.Item className="my-4 py-3  accordian_bg" eventKey="3">
             <Accordion.Header>
               <div className="d-flex align-items-center">
                 <p className="mb-0  fw-semibold fs_xxl">04</p>
@@ -144,22 +123,16 @@ const TheService = () => {
         <Container>
           <h3
             data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
             className="fs_3xl fw-medium text_darkLight mt-4 mt-lg-5"
           >
             We are passionate about helping businesses grow and succeed in the
             digital age. We take pride in our work and strive to exceed your
             expectations every time.
           </h3>
-          <div
-            data-aos="fade-down"
-            data-aos-anchor-placement="center-center"
-            className="bg_greenBox my-4 my-lg-5"
-          >
-            <Row className="py-4 justify-content-center">
+          <div data-aos="fade-down" className="bg_greenBox mt-4 mb-5 my-lg-5">
+            <Row className="py-4 pt-4 justify-content-center">
               <Col
                 data-aos="fade-down"
-                data-aos-anchor-placement="center-center"
                 className="my-3 my-lg-0"
                 sm={6}
                 md={4}
@@ -172,7 +145,6 @@ const TheService = () => {
               </Col>
               <Col
                 data-aos="fade-up"
-                data-aos-anchor-placement="center-center"
                 className="my-3 my-lg-0"
                 sm={6}
                 md={4}
@@ -185,7 +157,6 @@ const TheService = () => {
               </Col>
               <Col
                 data-aos="fade-down"
-                data-aos-anchor-placement="center-center"
                 className="my-3 my-lg-0"
                 sm={6}
                 md={4}
@@ -198,7 +169,6 @@ const TheService = () => {
               </Col>
               <Col
                 data-aos="fade-up"
-                data-aos-anchor-placement="center-center"
                 className="my-3 my-lg-0"
                 sm={6}
                 md={4}

@@ -30,7 +30,7 @@ const OurProject = () => {
         />
         <Container>
           <h2
-            className="text-center pt-5 text-white fw-bold fs_4xl"
+            className="text-center pt-4 pt-lg-5 text-white fw-bold fs_4xl"
             data-aos="fade-up"
             data-aos-duration="2500"
           >
@@ -47,10 +47,9 @@ const OurProject = () => {
               their brand and drive business growth.
             </span>
           </p>
-          <div className="   py-4 pt-lg-5 pb-lg-4">
+          <div className="   pt-4 pt-lg-5 pb-lg-4">
             <div className="py-2 px-1 px-sm-2 rounded-5 bg_whiteDark d-flex justify-content-between align-items-center mx-auto mw_md_380 mw_709">
               <button
-                
                 onClick={() => setfirst(1)}
                 className={
                   first === 1
@@ -62,7 +61,6 @@ const OurProject = () => {
                 <span className="d-md-none">UI/UX</span>
               </button>
               <button
-               
                 onClick={() => setfirst(2)}
                 className={
                   first === 2
@@ -74,7 +72,6 @@ const OurProject = () => {
                 <span className="d-md-none">Digital</span>
               </button>
               <button
-              
                 onClick={() => setfirst(3)}
                 className={
                   first === 3
@@ -86,7 +83,6 @@ const OurProject = () => {
                 <span className="d-md-none">SMM</span>
               </button>
               <button
-          
                 onClick={() => setfirst(4)}
                 className={
                   first === 4

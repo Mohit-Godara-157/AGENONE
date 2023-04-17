@@ -40,12 +40,9 @@ const Footer = () => {
       <Container>
         <div
           data-aos="zoom-out-left"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="300"
-          data-aos-offset="0"
           className="radiusBox  position-relative overflow-hidden z_4"
         >
-          <img
+          {/* <img
             className="position-absolute image_hw image_md_hw image_md_set image_set zn_1"
             src={leftImage}
             alt="leftImage"
@@ -54,13 +51,10 @@ const Footer = () => {
             className="position-absolute image_hw image_md_hw image2_md_set image2_set zn_1"
             src={rightImage}
             alt="leftImage"
-          />
+          /> */}
           <div className="mx-lg-5 d-flex flex-column flex-lg-row py-4 py-lg-0 align-items-center justify-content-center justify-content-lg-between  px-2 px-sm-3">
             <h4
               data-aos="flip-up"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="300"
-              data-aos-offset="0"
               className="mb-0  py-4 py-lg-5 text-white text-center text-lg-start fw-semibold fs_3xl"
             >
               Let's discuss and bring your
@@ -68,9 +62,6 @@ const Footer = () => {
             </h4>
             <button
               data-aos="flip-down"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="300"
-              data-aos-offset="0"
               className="footerBtn  text-white fw-medium fs_md border-0 "
             >
               Let's Talk
@@ -89,7 +80,7 @@ const Footer = () => {
               </svg>
             </button>
           </div>
-          <div className="FooterLine mx-1"></div>
+          <div className="FooterLine"></div>
         </div>
       </Container>
       <div className="bg_black position-relative z_4  overflow-hidden">
@@ -106,55 +97,30 @@ const Footer = () => {
         <Container>
           <Row
             data-aos="zoom-out-right"
-            data-aos-easing="ease-in-back"
-            data-aos-delay="300"
-            data-aos-offset="0"
             className="justify-content-between py-3 py-lg-5"
           >
-            <Col
-              data-aos="flip-up"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="300"
-              data-aos-offset="0"
-              className="my-3 my-lg-0"
-              lg={4}
-            >
+            <Col data-aos="flip-up" className="my-3 my-lg-0" lg={4}>
               <a href="#">
                 <img className="w_md_133" src={logoImage} alt="logoImage" />
               </a>
-              <p className="text_white_50 fs_md fw-normal mb-4 mt-4">
+              <p className="text_white_50 fs_md fw-normal pb-2 mb-4 mt-4">
                 We're a team of experienced designers, developers, and
                 marketers, passionate about delivering exceptional digital
                 solutions.
               </p>
               <a
-                className=" text_white_50 fw-medium ankerHover fs_md"
+                className=" text_white_50  fw-medium ankerHover fs_md"
                 href="mailto:hello@agenone.com"
               >
                 hello@agenone.com
               </a>
             </Col>
-            <Col
-              data-aos="flip-down"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="300"
-              data-aos-offset="0"
-              className="my-3 my-lg-0"
-              lg={6}
-            >
+            <Col data-aos="flip-down" className="my-3 my-lg-0" lg={6}>
               <Row>
-                <Col
-                  data-aos="zoom-in"
-                  data-aos-easing="ease-in-back"
-                  data-aos-delay="300"
-                  data-aos-offset="0"
-                  className="my-2 my-lg-0"
-                  xs={6}
-                  md={4}
-                >
+                <Col data-aos="zoom-in" className="my-2 my-lg-0" xs={6} md={4}>
                   <ul className="ps-0 mb-0">
                     <li className="fs_md fw-bold text-white">Menu</li>
-                    <li className="mt-3">
+                    <li className="mt-4">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -162,7 +128,7 @@ const Footer = () => {
                         Home
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -170,7 +136,7 @@ const Footer = () => {
                         Services
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -178,7 +144,7 @@ const Footer = () => {
                         About Us
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -186,7 +152,7 @@ const Footer = () => {
                         Project
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -196,19 +162,11 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  data-aos="zoom-out"
-                  data-aos-easing="ease-in-back"
-                  data-aos-delay="300"
-                  data-aos-offset="0"
-                  className="my-2 my-lg-0"
-                  xs={6}
-                  md={4}
-                >
+                <Col data-aos="zoom-out" className="my-2 my-lg-0" xs={6} md={4}>
                   <ul className="ps-0 mb-0">
                     <li className="fs_md fw-bold text-white">Support</li>
 
-                    <li className="mt-2">
+                    <li className="mt-4">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -216,7 +174,7 @@ const Footer = () => {
                         FAQ
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -224,7 +182,7 @@ const Footer = () => {
                         Privacy Policy
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -234,18 +192,10 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  data-aos="zoom-in"
-                  data-aos-easing="ease-in-back"
-                  data-aos-delay="300"
-                  data-aos-offset="0"
-                  className="my-2 my-lg-0"
-                  xs={6}
-                  md={4}
-                >
+                <Col data-aos="zoom-in" className="my-2 my-lg-0" xs={6} md={4}>
                   <ul className="ps-0 mb-0">
                     <li className="fs_md fw-bold text-white">Social Media</li>
-                    <li className="mt-3">
+                    <li className="mt-4">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -253,7 +203,7 @@ const Footer = () => {
                         Linked In
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -261,7 +211,7 @@ const Footer = () => {
                         Twitter
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -269,7 +219,7 @@ const Footer = () => {
                         Instagram
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
@@ -277,7 +227,7 @@ const Footer = () => {
                         Dribbble
                       </a>
                     </li>
-                    <li className="mt-2">
+                    <li className="mt-3">
                       <a
                         className="text_white_50 fw-normal fs_md ankerHover"
                         href="#"
